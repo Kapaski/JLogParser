@@ -230,7 +230,7 @@ public class MainUI extends javax.swing.JFrame {
        boolean isDir = files[0].isDirectory();
        
        if(isDir) {           
-          path += "\\*.*";           
+          path += "\\*.evt*";           
        } 
        System.out.println(path);
        jTextField1.setText(path);
